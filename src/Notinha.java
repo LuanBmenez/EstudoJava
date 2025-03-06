@@ -6,12 +6,10 @@ public class Notinha{
         if(Nota >= 7)
         System.out.println("Aprovado");
     
-        
         else if (Nota >=5 && Nota <7)
         System.out.println("Recuperação");  
 
         else
         System.out.println("Reprovado");
-        
     }
     }   
