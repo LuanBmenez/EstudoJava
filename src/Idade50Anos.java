@@ -13,7 +13,7 @@ public class Idade50Anos {
         System.out.println("Qual a sua idade?");
         idade = entrada.nextInt();
         entrada.nextLine(); 
-
+        
         System.out.println("Qual a sua altura");
         altura = entrada.nextDouble();
 
@@ -22,7 +22,7 @@ public class Idade50Anos {
 
 
         tempoIdade = 50 - idade;
-        System.out.println("Em " + tempoIdade + " anos você terá 50 anos.");
+        System.out.println("Em" + tempoIdade + " anos você terá 50 anos.");
 
    
         alturaCalculada = altura * 100;
