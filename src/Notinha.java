@@ -1,15 +1,9 @@
-public class Notinha{
+public class Notinha {
 
-    public static void main (String[] args) {
-        int Nota = 6;
-    
-        if(Nota >= 7)
-        System.out.println("Aprovado");
-    
-        else if (Nota >=5 && Nota <7)
-        System.out.println("Recuperação");  
+    public static void main(String[] args) {
+        int Nota = 7;
 
-        else
-        System.out.println("Reprovado");
+        String resultado = Nota >= 7 ? "Aprovado" : Nota <7 && Nota >=5 ? "Recuperação" : "Reprovado";
+        System.out.println(resultado);
     }
-    }   
+}
