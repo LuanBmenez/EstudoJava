@@ -14,7 +14,7 @@ public class EstudoDoWhile {
     private static boolean tocando(){
         boolean atendeu = new Random().nextInt(3)==1;
         System.err.println("Atendeu? " + atendeu);
-        //para o ato de continaur tocando 
+   
         return ! atendeu;
     }
 }
